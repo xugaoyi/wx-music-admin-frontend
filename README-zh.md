@@ -1,4 +1,16 @@
-# vue-admin-template
+# wx-music-admin-frontend
+
+​    [☁️小程序云开发-云音乐全栈小程序](https://github.com/xugaoyi/wx-music)
+
+\* ☁️云音乐小程序-后台管理系统-前端代码
+
+​    [☁️云音乐小程序-后台管理系统-后端代码](https://github.com/xugaoyi/wx-music-admin-backend)
+
+
+
+
+
+## 基于vue-admin-template
 
 > 这是一个极简的 vue admin 管理后台。它只包含了 Element UI & axios & iconfont & permission control & lint，这些搭建后台必要的东西。
 
