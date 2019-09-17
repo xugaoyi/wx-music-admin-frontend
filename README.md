@@ -2,9 +2,9 @@
 
 ​    [☁️小程序云开发-云音乐全栈小程序](https://github.com/xugaoyi/wx-music)
 
-\*  ☁️云音乐小程序-后台管理系统-前端代码
+\* ☁️云音乐小程序-后台管理系统-前端代码
 
-​    [☁️云音乐小程序-后台管理系统-后端代码](https://github.com/xugaoyi/wx-music-admin-frontend)
+​    [☁️云音乐小程序-后台管理系统-后端代码](https://github.com/xugaoyi/wx-music-admin-backend)
 
 
 
