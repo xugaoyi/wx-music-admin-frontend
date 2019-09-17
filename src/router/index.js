@@ -33,7 +33,7 @@ import Layout from '@/layout'
 export const constantRoutes = [
   {
     path: '/',
-    redirect: '/playlist/playlist'
+    redirect: '/playlist/list'
   },
   {
     path: '/login',
@@ -44,9 +44,14 @@ export const constantRoutes = [
     path: '/playlist',
     component: Layout,
     children: [{
-      path: 'playlist',
-      component: () => import('@/views/playlist/playlist'),
+      path: 'list',
+      component: () => import('@/views/playlist/list'),
       meta: { title: '歌单管理', icon: 'table' }
+    }, {
+      path: 'edit/:id',
+      component: () => import('@/views/playlist/edit'),
+      meta: { title: '编辑歌单', icon: 'table' },
+      hidden: true
     }]
   },
   {
