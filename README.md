@@ -10,7 +10,7 @@
 
 
 
-# 基于vue-admin-template
+## 基于vue-admin-template
 
 English | [简体中文](./README-zh.md)
 
@@ -26,7 +26,7 @@ English | [简体中文](./README-zh.md)
 
 ```bash
 # clone the project
-git clone https://github.com/PanJiaChen/vue-admin-template.git
+git clone https://github.com/xugaoyi/wx-music-admin-frontend.git
 
 # enter the project directory
 cd vue-admin-template
