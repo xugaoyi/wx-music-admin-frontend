@@ -9,15 +9,15 @@
         :on-success="uploadSuccess"
         :show-file-list="false"
       >
-        <el-button size="small" type="primary" :loading="uploadLoading">{{uploadBtnText}}</el-button>
+        <el-button size="small" type="primary" :loading="uploadLoading">{{ uploadBtnText }}</el-button>
         <div slot="tip" class="el-upload__tip">只能上传jpg/png/gif格式的图片，且不超过300KB（建议上传730*336px图片）</div>
       </el-upload>
     </div>
     <el-table v-loading="loading" :data="swiperList" stripe style="width: 100%">
-      <el-table-column type="index" width="50"></el-table-column>
+      <el-table-column type="index" width="50" />
       <el-table-column label="图片" width="400">
         <template slot-scope="scope">
-          <img :src="scope.row.download_url" alt height="50" />
+          <img :src="scope.row.download_url" alt height="50">
         </template>
       </el-table-column>
 
@@ -52,7 +52,7 @@ export default {
       swiper: {} // 删除图片用
     }
   },
-  created(){
+  created() {
     this.getSwiperList()
   },
   methods: {
@@ -70,7 +70,7 @@ export default {
         this.$message.error('只能上传jpg/png/gif格式的图片')
         return false
       } else {
-        if(file.size / 1024 > 300) {
+        if (file.size / 1024 > 300) {
           this.$message.error('图片不能超过300KB')
           return false
         }

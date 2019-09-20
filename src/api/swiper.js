@@ -1,3 +1,4 @@
+// 轮播图管理 数据交互
 import request from '@/utils/request'
 const baseURL = 'http://localhost:3000'
 

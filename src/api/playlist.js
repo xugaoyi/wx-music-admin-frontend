@@ -1,4 +1,4 @@
-// 歌单管理 对接口的操作
+// 歌单管理 数据交互
 import request from '@/utils/request' // request.js为是基于axios封装好的请求方法
 const baseURL = 'http://localhost:3000' // 后端请求接口
 
